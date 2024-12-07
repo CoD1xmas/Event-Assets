@@ -40,4 +40,7 @@ LANG_ENGLISH        "Diesel"
 REFERENCE           GTBR
 LANG_ENGLISH        "Battle Royale"
 
+REFERENCE           GTZOM
+LANG_ENGLISH        "Zombies"
+
 ENDMARKER
