@@ -38,8 +38,8 @@ weap_webley_reload,,weapons/webley/weap_webley_reload.wav,1.6,1.7,,,7,500,,,auto
 
 weap_bazooka_newreload,,weapons/bazooka/bazooka_newreload.wav,1.25,1.5,,,7,500,,,auto
 
-weap_mauser_fire,1,weapons/mauser/mauser_01.wav,1.25,1.35,0.9,1.05,7,3500,0,1800,weapon,,,
-weap_mauser_fire,2,weapons/mauser/mauser_01.wav,0.85,0.95,0.9,1.05,7,8500,1800,8500,weapon,,,
+weap_mauser_fire,1,weapons/mauser/mauser_01.wav,1.75,1.85,0.9,1.05,7,3500,0,1800,weapon
+weap_mauser_fire,2,weapons/mauser/mauser_01.wav,1.35,1.45,0.9,1.05,7,8500,1800,8500,weapon
 weap_mauser_reload,,weapons/mauser/mauser_reload.wav,1.25,1.5,,,7,500,,,auto
 weap_mauser_reload_empty,,weapons/mauser/mauser_reload_empty.wav,1.25,1.5,,,7,500,,,auto
 
