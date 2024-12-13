@@ -5,7 +5,7 @@ set -e
 echo "Xmas compile.sh script"
 
 FSUFFIX="zZz_XMAS_EVENT_v24_pak"
-ZIPSPLIT=134217728 # 128 MiB
+ZIPSPLIT=171966464 # ~150 MiB
 PAK=0
 
 # 7z command varies depending on distro
