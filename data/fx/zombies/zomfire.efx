@@ -1,0 +1,119 @@
+Particle
+{
+	name				fire
+
+	flags				impactKills
+
+	count				1 2   // Reduced from 2 to 1, and max value from 2 to 2
+
+	life				1000 500   // Reduced the life of the particles
+
+	origin				0 21 32 7 -22 -34
+
+	rotation			5 -10
+
+	rotationDelta		2 -3   // Reduced rotation speed
+
+	velocity			60 -8 -8 15 8 8   // Reduced the velocity for slower movement
+
+	acceleration		30 0 0   // Reduced acceleration
+
+	gravity				-16 -32   // Reduced gravity for less falloff
+
+	rgb
+	{
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		start			10 18   // Reduced the starting size for smaller particles
+		end				20 40   // Reduced the end size
+		flags			linear
+	}
+
+	size2
+	{
+		start			8 30   // Reduced the starting size2
+		end				10 20   // Reduced the end size2
+		flags			linear
+	}
+
+	length
+	{
+		start			10
+		end				500   // Reduced the length for a less intense effect
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fire/hotspot
+	]
+}
+
+Particle
+{
+	name				fire2
+
+	count				1 2   // Reduced from 2 to 1 and 3 to 2 for less intense emission
+
+	life				400 1500   // Reduced life for less duration
+
+	cullrange			500   // Reduced cullrange to limit the visibility
+
+	origin				42 -22 -23 34 29 21
+
+	rotation			180 -180   // Reduced rotation speed
+
+	rotationDelta		0.5   // Reduced rotationDelta
+
+	velocity			60 -1 10 35 1 1   // Reduced velocity for slower movement
+
+	acceleration		25 0 -4 25 0 0   // Reduced acceleration for slower movement
+
+	rgb
+	{
+		flags			linear
+	}
+
+	alpha
+	{
+		end				0
+		flags			linear
+	}
+
+	size
+	{
+		end				30 40   // Reduced the end size
+		flags			linear
+	}
+
+	length
+	{
+		flags			linear
+	}
+
+	shaders
+	[
+		gfx/effects/fire/smallfill
+	]
+}
+
+FxRunner
+{
+	cullrange			500   // Reduced the cullrange to limit the effect's visibility
+
+	origin				43 23 23 46 -46 -46
+
+	playfx
+	[
+		fx/smoke/firesmoke
+	]
+}
