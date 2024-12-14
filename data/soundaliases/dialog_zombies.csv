@@ -23,37 +23,45 @@
 
 name,sequence,file,vol_min,vol_max,pitch_min,pitch_max,dist_min,dist_max,channel,type,probability,loop,masterslave,loadspec,subtitle
 
-#MP Zombies Commands,,,1,1,,,45,4800,voice,streamed,,,,
-zombie_follow_me,1,voiceovers/mp/zombies/Zombie_63.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_follow_me,2,voiceovers/mp/zombies/Zombie_76.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_move_in,,voiceovers/mp/zombies/Zombie_72.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_fall_back,,voiceovers/mp/zombies/Zombie_50.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_suppressing_fire,,voiceovers/mp/zombies/Zombie_52.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_attack_right_flank,,voiceovers/mp/zombies/Zombie_71.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_attack_left_flank,,voiceovers/mp/zombies/Zombie_66.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_hold_position,1,voiceovers/mp/zombies/Zombie_44.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_hold_position,2,voiceovers/mp/zombies/Zombie_51.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_regroup,,voiceovers/mp/zombies/Zombie_70.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-,,,1,1,,,45,4800,voice,streamed,,,,
-#MP Zombies Statements,,,1,1,,,45,4800,voice,streamed,,,,
-zombie_enemy_spotted,,voiceovers/mp/zombies/Zombie_70.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_enemy_down,,voiceovers/mp/zombies/Zombie_07.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_in_position,,voiceovers/mp/zombies/Zombie_57.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_area_secure,,voiceovers/mp/zombies/Zombie_34.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_grenade,1,voiceovers/mp/zombies/Zombie_54.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_grenade,2,voiceovers/mp/zombies/Zombie_43.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_sniper,,voiceovers/mp/zombies/Zombie_64.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_need_reinforcements,,voiceovers/mp/zombies/Zombie_09.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_hold_fire,1,voiceovers/mp/zombies/Zombie_55.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_hold_fire,2,voiceovers/mp/zombies/Zombie_04.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-,,,1,1,,,45,4800,voice,streamed,,,,
-#MP Zombies Responses,,,1,1,,,45,4800,voice,streamed,,,,
-zombie_yes_sir,,voiceovers/mp/zombies/Zombie_46.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_no_sir,1,voiceovers/mp/zombies/Zombie_59.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_no_sir,2,voiceovers/mp/zombies/Zombie_33.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_on_my_way,,voiceovers/mp/zombies/Zombie_01.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_sorry,,voiceovers/mp/zombies/Zombie_14.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_great_shot,,voiceovers/mp/zombies/Zombie_05.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_took_long_enough,,voiceovers/mp/zombies/Zombie_10.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-zombie_youre_crazy,,voiceovers/mp/zombies/Zombie_68.wav,1,1,,,45,4800,voice,streamed,,,,all_mp
-,,,1,1,,,45,4800,voice,streamed,,,,
+#MP Zombies Commands,,,1,1,,,45,4000,voice,streamed,,,,
+zombie_follow_me,1,voiceovers/mp/zombies/Zombie_63.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_follow_me,2,voiceovers/mp/zombies/Zombie_76.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_move_in,1,voiceovers/mp/zombies/Zombie_72.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_move_in,2,voiceovers/mp/zombies/Zombie_24.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_fall_back,,voiceovers/mp/zombies/Zombie_50.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_suppressing_fire,,voiceovers/mp/zombies/Zombie_52.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_attack_right_flank,,voiceovers/mp/zombies/Zombie_71.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_attack_left_flank,,voiceovers/mp/zombies/Zombie_66.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_hold_position,1,voiceovers/mp/zombies/Zombie_44.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_hold_position,2,voiceovers/mp/zombies/Zombie_51.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_regroup,,voiceovers/mp/zombies/Zombie_70.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+,,,1,1,,,45,4000,voice,streamed,,,,
+#MP Zombies Statements,,,1,1,,,45,4000,voice,streamed,,,,
+zombie_enemy_spotted,1,voiceovers/mp/zombies/Zombie_70.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_enemy_spotted,2,voiceovers/mp/zombies/Zombie_71.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_enemy_down,1,voiceovers/mp/zombies/Zombie_07.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_enemy_down,2,voiceovers/mp/zombies/Zombie_46.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_enemy_down,3,voiceovers/mp/zombies/Zombie_52.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_in_position,,voiceovers/mp/zombies/Zombie_57.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_area_secure,,voiceovers/mp/zombies/Zombie_34.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_grenade,1,voiceovers/mp/zombies/Zombie_54.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_grenade,2,voiceovers/mp/zombies/Zombie_43.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_grenade,3,voiceovers/mp/zombies/Zombie_28.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_sniper,,voiceovers/mp/zombies/Zombie_64.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_need_reinforcements,,voiceovers/mp/zombies/Zombie_09.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_hold_fire,1,voiceovers/mp/zombies/Zombie_55.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_hold_fire,2,voiceovers/mp/zombies/Zombie_04.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+,,,1,1,,,45,4000,voice,streamed,,,,
+#MP Zombies Responses,,,1,1,,,45,4000,voice,streamed,,,,
+zombie_yes_sir,1,voiceovers/mp/zombies/Zombie_46.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_yes_sir,2,voiceovers/mp/zombies/Zombie_25.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_yes_sir,3,voiceovers/mp/zombies/Zombie_53.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_no_sir,1,voiceovers/mp/zombies/Zombie_59.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_no_sir,2,voiceovers/mp/zombies/Zombie_33.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_no_sir,3,voiceovers/mp/zombies/Zombie_62.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_on_my_way,,voiceovers/mp/zombies/Zombie_01.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_sorry,,voiceovers/mp/zombies/Zombie_14.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_great_shot,,voiceovers/mp/zombies/Zombie_05.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_took_long_enough,,voiceovers/mp/zombies/Zombie_10.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+zombie_youre_crazy,,voiceovers/mp/zombies/Zombie_68.wav,1,1,,,45,4000,voice,streamed,,,,all_mp
+,,,1,1,,,45,4000,voice,streamed,,,,
